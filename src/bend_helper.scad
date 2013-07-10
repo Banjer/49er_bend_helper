@@ -8,7 +8,7 @@ include <bitmap.scad>;
 
 // Variables
 
-d_mast = 60;
+d_mast = 62;
 l_helper = 100;
 t_skin = 1.5;
 d_line = 5;
