@@ -8,7 +8,7 @@ include <bitmap.scad>;
 
 // Variables
 
-d_mast = 60;
+d_mast = 61;
 l_helper = 100;
 t_skin = 1.5;
 d_line = 5;
@@ -30,7 +30,7 @@ difference () {
 		translate ([-(r_mast-5), 25, 0]) {cylinder (r = 10, h = 5);}
 	}
 	translate ([0, 0, -1]) {cylinder (r = r_mast, h = l_helper+2);}
-	translate ([0, -30, -1]) {cylinder (r = r_mast+t_skin, h = l_helper+2);}
+	translate ([0, -40, -1]) {#cylinder (r = r_mast+t_skin, h = l_helper+2);}
 	translate ([0, r_line+r_mast+15, -10]) {cylinder (r = r_line,h = 60);}
 	translate ([0, r_line+r_mast+45, -10]) {cylinder (r = 30, h = 70);}
 	translate ([(r_mast), 25, -1]) {cylinder (r = 2, h = 100);}
